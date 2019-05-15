@@ -1,4 +1,4 @@
-class Score
+class Menu
 {
     constructor(grid)
     {
@@ -7,9 +7,8 @@ class Score
        this.status = false;
        this.init();
        this.tab_best = [];
-    
-    
     }
+
     increaseCurrentScore(mult) 
     {
       
@@ -26,5 +25,5 @@ class Score
     }
 };
 
-export { Score as default};
+export {Menu as default};
 

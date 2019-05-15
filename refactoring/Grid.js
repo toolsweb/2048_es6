@@ -5,7 +5,6 @@ class Grid
         this.row_nb;
         this.grid = [];
         this.init(nb);
-        
     }
 
     init(nb)
@@ -39,12 +38,12 @@ class Grid
        
     }
 
-     overbook() 
+    overbook() 
     {
        
     }
    
 }
 
-export { Grid as default};
+export {Grid as default};
 
